@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "homebanners",
+  "info": {
+    "name": "homebanner",
+    "description": "Banner cho trang home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "data": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
